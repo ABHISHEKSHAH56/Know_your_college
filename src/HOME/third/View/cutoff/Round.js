@@ -28,9 +28,11 @@ export default function Round({data}) {
                                 <div className="display-cutoff ">
                                         <Table striped bordered hover >
                                                 <thead style={{color:"white",background:"black",height:'140px'}}>
-                                                        <th  >Course</th>
+                                                       <tr>
+                                                       <th  >Course</th>
                                                         <th className="text-center">Marks</th>
-                                                </thead>
+                                            
+                                                        </tr>    </thead>
                                                 <tbody >
                                                  {
                                                         arr.length > 0 ?

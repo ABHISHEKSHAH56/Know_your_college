@@ -35,8 +35,9 @@ export default function Landingpage() {
                                                 <Child key={item._id} item={item} />
 
                                         )) : <Loader />
+                                        
                                 }
-
+                               
 
 
                                 </Container>
