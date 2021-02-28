@@ -1,4 +1,9 @@
-.okay{
-        height: 400px;
-        background: black;
+@media screen and (max-width: 800px) {
+        .kar{
+                
+                background: black;
+                background-size: cover;
+                background-position: center;
+
+        }
 }

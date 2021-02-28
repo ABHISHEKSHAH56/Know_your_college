@@ -5,7 +5,7 @@ import './checkout.css'
 export default function Checkout() {
         return (
                 <div style={{ "background-image":`url(${ramu})`, "background-repeat": "no-repeat",
-                "background-size" : "contain" }} className="okay">
+                "background-size" : "cover",minHeight:'100vh' }}  className='kar'>
                         
                 </div>
                  
