@@ -20,14 +20,14 @@ export default function Section1() {
                                         <Col className="col-xl-3 col-lg-4  col-md-6 col-sm-6 col-xs-12">
                                         <div className="first"> 
                                                 <Link to="/second">
-                                                <Card  style={{ width: '20rem' }}>
+                                                <Card className="cardk"  style={{ width: '20rem' }}>
                                                         <Card.Text className="d-flex flex-row justify-content-around"  >
                                                                 <Feed>
                                                                         <Feed.Label>
                                                                                 <img src={b} className="m-1" width='100px' height='80px' />
                                                                         </Feed.Label>
                                                                 </Feed>
-                                                                <Card.Title className=" mt-6 align-self-center">College</Card.Title>
+                                                                <Card.Title className=" mt-6 fw-bold align-self-center">College</Card.Title>
                                                         </Card.Text>
                                                         <Card.Body>
                                                                
@@ -45,14 +45,14 @@ export default function Section1() {
                                                 
                                         <div className="first">
                                                  <Link to="/comingsoon">
-                                                <Card  style={{ width: '20rem' }}>
+                                                <Card  className="cardk" style={{ width: '20rem' }}>
                                                         <Card.Text className="d-flex flex-row justify-content-around"  >
                                                                 <Feed>
                                                                         <Feed.Label>
                                                                                 <img src={d} className="m-1" width='100px' height='100px' />
                                                                         </Feed.Label>
                                                                 </Feed>
-                                                                <Card.Title className=" mt-6 align-self-center">Cut-Off </Card.Title>
+                                                                <Card.Title className=" mt-6 fw-bold align-self-center">Cut-Off </Card.Title>
                                                         </Card.Text>
                                                         <Card.Body>
                                                                
@@ -68,14 +68,14 @@ export default function Section1() {
                                         </Col>
                                         <Col className="col-xl-3 col-lg-4  col-md-6 col-sm-6 col-xs-12">
                                         <div className="first"> <Link to="/comingsoon">
-                                                <Card  style={{ width: '20rem' }}>
+                                                <Card className="cardk" style={{ width: '20rem' }}>
                                                         <Card.Text className="d-flex flex-row justify-content-around"  >
                                                                 <Feed>
                                                                         <Feed.Label>
                                                                                 <img src={ck} className="m-1" width='100px' height='100px' />
                                                                         </Feed.Label>
                                                                 </Feed>
-                                                                <Card.Title className=" mt-6 align-self-center">College Predictor</Card.Title>
+                                                                <Card.Title className=" mt-6 fw-bold align-self-center">College Predictor</Card.Title>
                                                         </Card.Text>
                                                         <Card.Body>
                                                                
@@ -89,15 +89,16 @@ export default function Section1() {
                                                 
                                         </Col>
                                          <Col className="col-xl-3 col-lg-4  col-md-6 col-sm-6 col-xs-12">
-                                         <div className="first"> <Link to="/comingsoon">
-                                                <Card  style={{ width: '20rem' }}>
+                                         <div className="first">
+                                                  <Link to="/comingsoon">
+                                                <Card className="cardk" style={{ width: '20rem' }}>
                                                         <Card.Text className="d-flex flex-row justify-content-around"  >
                                                                 <Feed>
                                                                         <Feed.Label>
                                                                                 <img src={a}  width='100px' height='100px' />
                                                                         </Feed.Label>
                                                                 </Feed>
-                                                                <Card.Title className=" mt-6 align-self-center"> Entrance-Exam</Card.Title>
+                                                                <Card.Title className=" mt-6 fw-bold align-self-center"> Entrance-Exam</Card.Title>
                                                         </Card.Text>
                                                         <Card.Body>
                                                                

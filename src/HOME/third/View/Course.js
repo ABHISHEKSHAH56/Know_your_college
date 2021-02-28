@@ -17,9 +17,12 @@ export default function CourseOffer() {
                                         <h2>Course Offered</h2>
                                 </div>
                                 <div className="display-cutoff ">
-                                        <Table striped bordered hover >
-                                        <thead style={{color:"white",background:"black",height:'140px'}}>
-                                                        <th  >Course</th>
+                                        <Table  bordered hover >
+                                        <thead >
+                                                       <tr>
+                                                       <th  >Course</th>
+                                                       </tr>
+
                                                         
                                                 </thead>
                                                 <tbody >
@@ -27,7 +30,7 @@ export default function CourseOffer() {
                                                  posts.map((e) => (
                                                         
                                                                 <tr key={e._id}>
-                                                                        <td className="fw-blod   table-success ">{e.course}</td>
+                                                                        <td className="fw-blod tr-class   ">{e.course}</td>
                                                                        
                                                                 </tr>
                                                                

@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react'
 import { Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import './Navbar.css';
-
+import img from '../img/navbar.png'
 
 const  Navbar= ()=>{
         const [click, setClick]=useState(false);
@@ -17,8 +17,16 @@ const  Navbar= ()=>{
                                 <div className="navbar-container">
                                        
                                         <Link to='/' className="navbar-logo">
+                                                <div className="navbarimage">
+                                                        <img src={img}  height='80px' style={{top:'0',borderRadius:'100%'}}/>
+
+                                                </div>
+                                                <div className="navbartitle">
+                                                Know Your College  
+
+                                                </div>
                                                
-                                               Know Your College                                             
+                                                                                         
                                                     
                                         
                                         </Link>

@@ -16,7 +16,7 @@ export default class MenuHai extends Component {
                 return (
                        <Container>
                                 <Menu pointing secondary vertical>
-                                <h1 style={{ 'fontFamily': "Nunito", 'fontWeight': 'bold', color: ' #35404e' }}> Categorey</h1>
+                                <h1 className="text-center" style={{ 'fontFamily': "Nunito", borderRadius:'10px' , boxShadow: '0px 0px 5px .02px','fontWeight': 'bold', color: ' #35404e' }}> Categorey</h1>
 
 
                                 <Link to={`/overview/${this.props.name}`}>
@@ -48,6 +48,7 @@ export default class MenuHai extends Component {
                                                 onClick={this.handleItemClick}
                                         />
                                 </Link>
+                                <hr />
 
 
                         </Menu>

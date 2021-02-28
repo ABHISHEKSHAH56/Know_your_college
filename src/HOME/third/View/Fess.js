@@ -19,9 +19,14 @@ export default function Fees() {
                                 </div>
                                 <div className="display-cutoff ">
                                         <Table striped bordered hover >
-                                                <thead style={{color:"white",background:"black",height:'140px'}}>
+                                                <thead >
+                                                        <tr>
                                                         <th  >Course</th>
                                                         <th className="text-center">Fees</th>
+
+                                                        </tr>
+
+                                                        
                                                 </thead>
                                                 <tbody >
                                                  {

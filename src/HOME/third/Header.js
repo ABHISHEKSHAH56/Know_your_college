@@ -18,7 +18,8 @@ export default function Header() {
                                         <h1>Lady Shree Ram College </h1>                                                     
                                                         
                                 </div>
-                                </Row>                       
+                                </Row> 
+                                <hr />                      
                          </Container>
 
                         

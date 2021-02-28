@@ -11,7 +11,7 @@ export default function Child({ item }) {
         return (
                 <div>
                         <Link to={`/overview/${item.college_id}`}>
-                                <Card style={{ width: '18rem', margin: '3px',minHeight: '150px' }}>
+                                <Card className="cardk" style={{ width: '18rem', margin: '3px',minHeight: '150px' }}>
                                         <Card.Body>
                                                 <Image src={a} style={{ 'marginLeft': '20px' }} size='small' />
                                                 <Card.Title style={{ 'fontFamily': "Nunito", 'fontWeight': 'bold', color: ' #35404e' }} className="m-2">
