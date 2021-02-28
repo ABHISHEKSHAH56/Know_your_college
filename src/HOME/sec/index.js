@@ -6,6 +6,7 @@ import Landingpage from './Landingpage'
 
 import {useDispatch} from 'react-redux';
 import { getcollege } from '../Redux/action/post'
+import ramu from '../img/hexa.jpg'
 
 export default function Second() {
         const dispatch=useDispatch();
@@ -15,7 +16,7 @@ export default function Second() {
                
         }, [dispatch])
         return (
-                <div>
+                <div  > 
                         <Navbar />
                         <Landingpage />
                         <Footer />
