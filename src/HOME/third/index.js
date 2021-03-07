@@ -75,7 +75,7 @@ export default function Index() {
                 <Router>
                         <div>
                                 <Navbar />
-                                <Landkro />
+                                <Landkro name={slug} />
                                 <Container style={{ 'marginTop': '80px' }} >
                                         <Row className='cut-menu'>
                                                 <Col className="col-xl-3  col-lg-3 col-md-3 " >

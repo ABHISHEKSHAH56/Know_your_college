@@ -2,7 +2,7 @@
         .kar{
                 
                 background: black;
-                background-size: cover;
+                background-size: contain !important;
                 background-position: center;
 
         }

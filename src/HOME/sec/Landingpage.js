@@ -7,6 +7,7 @@ import Child from './Child';
 import Loader from '../extra/Loader';
 
 
+
 export default function Landingpage() {
 
         
@@ -18,9 +19,8 @@ export default function Landingpage() {
                 <div>
                         <Container >
                                 <div className="header">
-                                        <h1>Delhi university</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius obcaecati, quibusdam eaque deserunt animi quos quo! Eaque, qui modi!</p>
-                                </div>
+                                        <h1 style={{display:'block', 'box-shadow': '0px 0px 5px .02px black',  'background':'#ffff'}}>Delhi university</h1>
+                                        </div>
                                 <div className="search">
 
                                 </div>

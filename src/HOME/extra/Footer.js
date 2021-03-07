@@ -27,8 +27,9 @@ export default function Footer() {
                         <div className="sec-1">
                                 <h2>Contact us </h2>
                                 <div className="sec-2 d-flex flex-row ">
-                                        <i className="fa fa-envelope m-2" aria-hidden="true"></i>
+                                       
                                         <p>
+                                        <i className="fa fa-envelope m-2" aria-hidden="true"></i>
                                         Ak8756110@gmail.com 
                                       </p>
 
