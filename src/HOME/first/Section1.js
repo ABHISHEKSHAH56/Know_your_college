@@ -11,7 +11,7 @@ export default function Section1() {
         return (
                 <div className="container">
                         <div className="header">
-                                <h1>Lorem ipsum dolor sit amet.</h1>
+                                <h1>Quick Links</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius obcaecati, quibusdam eaque deserunt animi quos quo! Eaque, qui modi!</p>
                         </div>
                         <Container >

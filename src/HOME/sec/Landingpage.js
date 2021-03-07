@@ -18,7 +18,7 @@ export default function Landingpage() {
                 <div>
                         <Container >
                                 <div className="header">
-                                        <h1>Lorem ipsum dolor sit amet.</h1>
+                                        <h1>Delhi university</h1>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius obcaecati, quibusdam eaque deserunt animi quos quo! Eaque, qui modi!</p>
                                 </div>
                                 <div className="search">

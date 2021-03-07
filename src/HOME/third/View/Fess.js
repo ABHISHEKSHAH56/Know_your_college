@@ -37,6 +37,7 @@ export default function Fees() {
                                                                         <td className="fw-blod   table-success ">{e.course}</td>
                                                                         <td className="fw-bld   secondary">{e.amount} -/</td>
                                                                 </tr>
+                                                                
                                                                
                                                        
                                                 )):<LoaderHai />

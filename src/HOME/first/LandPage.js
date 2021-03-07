@@ -9,12 +9,13 @@ export default function LandPage() {
                 }}>
                         <Container className="cont" >
                                 <div className="content">
-                                        <h1>Lorem ipsum </h1>
+                                        <h1>Know Your College </h1>
                                         <p>
-                                                Lorem ipsum dolor sit amet consectetur
-                                                adipisicing elit. Et dolorem placeat
-                                                blanditiis cum excepturi nesciunt, natus
-                                                nobis mollitia magnam aspernatur. Distinctio, veniam?
+                                        The University of Delhi is a premier university of the country with a venerable legacy 
+                                        and international acclaim for highest academic standards,
+                                         diverse educational programmes, distinguished faculty,
+                                          illustrious alumni, varied co-curricular activities and modern infrastructure. 
+                                           
                                         </p>
                                         <button>Read More </button>
                                 </div>

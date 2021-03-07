@@ -45,16 +45,7 @@ export default function OverView() {
                                                                         <td className="fw-bld   secondary">{e.address}</td>
 
                                                                 </tr>
-                                                                <tr>
-                                                                        <td className="fw-blod   table-danger ">NIRF Ranking</td>
-                                                                        <td className="fw-bld   secondary"></td>
-
-                                                                </tr>
-                                                                <tr>
-                                                                        <td className="fw-blod   table-danger">NAAC'S Rating</td>
-                                                                        <td className="fw-bld   secondary"></td>
-
-                                                                </tr>
+                                                               
                                                                 <tr>
                                                                         <td className="fw-blod   table-danger">Website</td>
 

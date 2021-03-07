@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Table } from 'react-bootstrap'
 import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import LoaderHai from '../../extra/Loader';
 
 
@@ -10,6 +10,7 @@ import LoaderHai from '../../extra/Loader';
 
 export default function CourseOffer() {
         const posts = useSelector((state) => state.shop.course);
+        
         return (
                
                 <Container >

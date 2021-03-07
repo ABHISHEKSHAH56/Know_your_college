@@ -4,31 +4,31 @@ const inital={
                     {
                         "_id": "603829c06464b130e0109146",
                         "name": "Lady Shree Ram College",
-                        "logo":"https://lh3.googleusercontent.com/wx4s6w3KxOAdgQLY7_Fca0S3pB5URgu2OmyDGoxVSWzQ_YY1ypD1B-FDqlTu9Vb_aG_JQ93NNqQr4R9t5034apUBUXe3H7yzu5ppIkD6ybEGfjG0fkdIwoBboLbQIS2lqXunrYUvnw=w2400",
-                        "college_id": "kuhh"
+                        "logo":"https://static.toiimg.com/thumb/msid-69885395,width-1200,height-900,resizemode-4/.jpg",
+                        "college_id": "KYC001"
                     },
                     {
                         "_id": "603829c06464b130e0109147",
                         "name": "Bhagini Nivedita College",
-                        "logo":"https://lh3.googleusercontent.com/hHxLq2olQnSxMzXQbTAxgmAydN9l65WHQMYG6BmYkWpLOLGHytysdxWVoP8Ry7oLCMWW7S0iboXN-s9IVEJ0tjwcAc7MegtnKCGpk0aQ-GJ2WwMUvBOEqfQdE1P0_A5vVDVNS6J6ig=w2400",
+                        "logo":"https://www.sundayguardianlive.com/wp-content/uploads/2018/12/p2-42.jpg",
                         "college_id": "KYC002"
                     },
                     {
                         "_id": "603829c06464b130e0109148",
                         "name": "Bharati College",
-                        "logo":"https://lh3.googleusercontent.com/wx4s6w3KxOAdgQLY7_Fca0S3pB5URgu2OmyDGoxVSWzQ_YY1ypD1B-FDqlTu9Vb_aG_JQ93NNqQr4R9t5034apUBUXe3H7yzu5ppIkD6ybEGfjG0fkdIwoBboLbQIS2lqXunrYUvnw=w2400",
+                        "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhFMqNYoslQuLGKG-ECocVqryzJmuMjKwSaA&usqp=CAU",
                         "college_id": "KYC003"
                     },
                     {
                         "_id": "603829c06464b130e0109149",
                         "name": "Bhaskaracharya College of Applied Sciences",
-                        "logo":"https://lh3.googleusercontent.com/hHxLq2olQnSxMzXQbTAxgmAydN9l65WHQMYG6BmYkWpLOLGHytysdxWVoP8Ry7oLCMWW7S0iboXN-s9IVEJ0tjwcAc7MegtnKCGpk0aQ-GJ2WwMUvBOEqfQdE1P0_A5vVDVNS6J6ig=w2400",
+                        "logo":"https://imgk.timesnownews.com/1564639202-SRCC_DU.jpg?tr=w-560,h-292,fo-top",
                         "college_id": "KYC004"
                     },
                     {
                         "_id": "603829c06464b130e010914a",
                         "name": "Bhim Rao Ambedkar College",
-                        "logo":"https://lh3.googleusercontent.com/wx4s6w3KxOAdgQLY7_Fca0S3pB5URgu2OmyDGoxVSWzQ_YY1ypD1B-FDqlTu9Vb_aG_JQ93NNqQr4R9t5034apUBUXe3H7yzu5ppIkD6ybEGfjG0fkdIwoBboLbQIS2lqXunrYUvnw=w2400",
+                        "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQss3yCAzGk3V4nhasZoTtnFLetlxOqAyWDuw&usqp=CAU",
                         "college_id": "KYC005"
                     },
                     {
