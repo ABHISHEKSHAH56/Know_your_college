@@ -6,16 +6,23 @@ import b from '../img/col.svg' ;
 import ck from '../img/3.png';
 import d from '../img/cutoff.svg' ;
 import { Link } from 'react-router-dom';
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from 'react';
 
 export default function Section1() {
+        useEffect(() => {
+                Aos.init({duration:2000});
+         }, [])
+        
         return (
                 <div className="container">
-                        <div className="header">
+                        <div className="header" data-aos="fade-down">
                                 <h1>Quick Links</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius obcaecati, quibusdam eaque deserunt animi quos quo! Eaque, qui modi!</p>
                         </div>
                         <Container >
-                                <Row className="service">
+                                <Row className="service" data-aos="fade-right">
                                         
                                         <Col className="col-xl-3 col-lg-4  col-md-6 col-sm-6 col-xs-12">
                                         <div className="first"> 
