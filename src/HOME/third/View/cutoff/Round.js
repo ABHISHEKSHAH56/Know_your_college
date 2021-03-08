@@ -3,12 +3,18 @@ import { Container, Table } from 'react-bootstrap'
 import { useSelector } from 'react-redux';
 import { Link, useParams, useRouteMatch } from 'react-router-dom';
 import LoaderHai from '../../../extra/Loader';
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from 'react';
 
 
 
 
 
 export default function Round({data}) {
+        useEffect(() => {
+                Aos.init({duration:1000});
+         }, [])
         let { path, url } = useRouteMatch();      
         var { id } = useParams();
         
@@ -21,7 +27,7 @@ export default function Round({data}) {
      
         return (
                
-                <Container >
+                <Container  data-aos="fade-down">
                                 <div className="head">
                                         <h2>Cutoff</h2>
                                 </div>
@@ -38,7 +44,7 @@ export default function Round({data}) {
                                                         arr.length > 0 ?
                                                  arr.map((e) => (
                                                         
-                                                                <tr key={e._id}>
+                                                                <tr key={e._id} data-aos="fade-up">
                                                                         <td className="fw-blod   table-success ">{e.course}</td>
                                                                         <td className="fw-bld   secondary">{e.cutoff} %</td>
                                                                 </tr>

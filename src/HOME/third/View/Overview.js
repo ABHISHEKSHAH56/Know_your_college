@@ -3,17 +3,23 @@ import { Container, Table } from 'react-bootstrap'
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import LoaderHai from '../../extra/Loader';
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from 'react';
 
 
 
 
 
 export default function OverView() {
+        useEffect(() => {
+                Aos.init({duration:2000});
+         }, [])
         const posts = useSelector((state) => state.shop.overview);
         
         return (
                
-                <Container  >
+                <Container data-aos="fade-up"  >
                                 <div className="head">
                                         <h2>Overview</h2>
                                 </div>
