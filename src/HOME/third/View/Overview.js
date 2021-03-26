@@ -61,7 +61,7 @@ export default function OverView() {
                                                                         <td className="fw-blod   table-danger">Website</td>
 
                                                                         <td className=" f-bld   secondary">
-                                                                                <Link to={`/${e.website}`}>{e.website}  </Link></td>
+                                                                                <a href={`/${e.website}`}>{e.website}  </a></td>
                                                                 </tr>
                                                         </tbody>
                                                 )):<LoaderHai />
