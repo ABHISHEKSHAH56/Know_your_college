@@ -25,7 +25,8 @@ export default function MainMenu() {
         
        
         const handleSubmit=(e)=>{
-                e.preventDefault();            
+                e.preventDefault();
+                console.log(postData)            
                 dispatch(getcutoff(postData))    
                 setcate(true);
         }
