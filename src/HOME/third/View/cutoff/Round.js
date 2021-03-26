@@ -46,7 +46,7 @@ export default function Round({data}) {
                                                         
                                                                 <tr key={e._id} data-aos="fade-up">
                                                                         <td className="fw-blod   table-success ">{e.course}</td>
-                                                                        <td className="fw-bld   secondary">{e.cutoff} %</td>
+                                                                        <td className="fw-bld   secondary">{e.marks} %</td>
                                                                 </tr>
                                                                
                                                        
