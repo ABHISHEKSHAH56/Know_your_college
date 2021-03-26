@@ -69,6 +69,8 @@ export default function MainMenu() {
                                                                 <Form.Control  as="select"  value={postData.cate} onChange={(e) => setPostData({ ...postData, cate: e.target.value })} >
                                                                 <option>Categorey</option>
                                                                 <option>General</option>
+                                                                <option>EWS</option>
+                                                                <option>OBC</option>
                                                                 <option>SC</option>
                                                                 <option>ST</option>
                                                                 </Form.Control>

@@ -68,6 +68,7 @@ export const  getcourse =(id)=>async (dispatch)=>{
 
 export const  getcutoff =(raw)=>async (dispatch)=>{
         try {
+                console.log(raw)
                 const {data}=await api.fetchcutoff(raw);
                 
                 dispatch({
