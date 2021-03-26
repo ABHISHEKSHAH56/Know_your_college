@@ -27,7 +27,7 @@ export default function Round({data}) {
      
         return (
                
-                <Container  data-aos="fade-down">
+                <Container  >
                                 <div className="head">
                                         <h2>Cutoff</h2>
                                 </div>

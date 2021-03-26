@@ -19,7 +19,7 @@ export default function CourseOffer() {
         
         return (
                
-                <Container data-aos="fade-up" >
+                <Container  >
                                 <div className="head">
                                         <h2>Course Offered</h2>
                                 </div>
