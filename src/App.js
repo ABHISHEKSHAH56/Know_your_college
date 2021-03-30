@@ -18,9 +18,12 @@ export default function App() {
                                 <Route path='/' exact component={FirstPage} />
                                 <Route path='/second' component={Second} />
                                 <Route path='/overview/:slug' exact component={Index} />
-                                <Route path='/fees/:slug' exact component={Fees} />
+                                <Route path='/fees/:slug' exact component={Index} />
+                                <Route path='/course/:slug' exact component={Index} />
                                 <Route path='/comingsoon' exact component={Checkout} />
-                                <Route path='x/cutoff/:slug' exact component={Cutoff} />                          
+                                <Route path='/cutoff/:slug' exact component={Cutoff} />  
+                               
+                                                       
                                 
                                 
 
