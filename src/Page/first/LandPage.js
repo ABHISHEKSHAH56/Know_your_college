@@ -16,7 +16,7 @@ export default function LandPage() {
                 }}>
                         <Container className="cont" >
                                 <div className="content" data-aos="fade-left">
-                                        <h1>Know Your College </h1>
+                                        <h2>Know Your College </h2>
                                         <p>
                                                 The University of Delhi is a premier university of the country with a venerable legacy
                                                 and international acclaim for highest academic standards,
