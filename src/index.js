@@ -6,15 +6,15 @@ import 'semantic-ui-css/semantic.min.css';
 import 'antd/dist/antd.css'; //
 
 import { Provider } from "react-redux";
-import store from './HOME/Redux/store'
+import store from './Redux/store'
 
 ReactDom.render(
-                        
-        <Provider store={store} >
-                 <App />
-        </Provider>,
 
-  document.getElementById('root'));
+      <Provider store={store} >
+            <App />
+      </Provider>,
+
+      document.getElementById('root'));
 
 
 
