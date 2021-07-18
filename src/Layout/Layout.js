@@ -26,12 +26,12 @@ const ErrorLayout = ({ match: { url } }) => (
 const CollegeRoutes = ({ match: { url } }) => (
 
         <Switch>
-                <Route path={`${url}/list`} component={Second} />
-                <Route path={`${url}/:_id`} component={CollegeLayout} />
-                <Route path={`${url}/comingsoon`} component={Checkout} />
+                <Route path={`${url}/list`} exact component={Second} />
+                <Route path={`${url}/:_id`} exact component={CollegeLayout} />
+
 
                 {/*Redirect*/}
-                <Redirect to={`errors/404`} />
+                <Redirect to={`/errors/404`} />
         </Switch>
 
 );
@@ -46,6 +46,7 @@ export default function Layout() {
                                 <Route path='/' exact component={FirstPage} />
                                 <Route path='/college' component={CollegeRoutes} />
                                 <Route path="/errors" component={ErrorLayout} />
+                                <Route path={`/comingsoon`} exact component={Checkout} />
 
                                 {/*Redirect*/}
                                 <Redirect to="/errors/404" />

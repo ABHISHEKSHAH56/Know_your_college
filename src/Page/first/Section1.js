@@ -51,7 +51,7 @@ export default function Section1() {
                                         <Col className="col-xl-3 col-lg-4  col-md-6 col-sm-6 col-xs-12">
 
                                                 <div className="first">
-                                                        <Link to="/college/comingsoon">
+                                                        <Link to="/comingsoon">
                                                                 <Card className="cardk" style={{ width: '20rem' }}>
                                                                         <Card.Text className="d-flex flex-row justify-content-around"  >
                                                                                 <Feed>
@@ -74,7 +74,7 @@ export default function Section1() {
 
                                         </Col>
                                         <Col className="col-xl-3 col-lg-4  col-md-6 col-sm-6 col-xs-12">
-                                                <div className="first"> <Link to="/college/comingsoon">
+                                                <div className="first"> <Link to="/comingsoon">
                                                         <Card className="cardk" style={{ width: '20rem' }}>
                                                                 <Card.Text className="d-flex flex-row justify-content-around"  >
                                                                         <Feed>
@@ -97,7 +97,7 @@ export default function Section1() {
                                         </Col>
                                         <Col className="col-xl-3 col-lg-4  col-md-6 col-sm-6 col-xs-12">
                                                 <div className="first">
-                                                        <Link to="/college/comingsoon">
+                                                        <Link to="/comingsoon">
                                                                 <Card className="cardk" style={{ width: '20rem' }}>
                                                                         <Card.Text className="d-flex flex-row justify-content-around"  >
                                                                                 <Feed>
