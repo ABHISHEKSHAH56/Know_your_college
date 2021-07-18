@@ -8,6 +8,7 @@ import E500 from '../Error/E500';
 import CollegeLayout from './CollegeLayout';
 import FirstPage from '../Page/first';
 import Second from '../Page/sec'
+import Checkout from '../extra/Checkout';
 
 const ErrorLayout = ({ match: { url } }) => (
 
@@ -27,6 +28,7 @@ const CollegeRoutes = ({ match: { url } }) => (
         <Switch>
                 <Route path={`${url}/list`} component={Second} />
                 <Route path={`${url}/:_id`} component={CollegeLayout} />
+                <Route path={`${url}/comingsoon`} component={Checkout} />
 
                 {/*Redirect*/}
                 <Redirect to={`errors/404`} />
